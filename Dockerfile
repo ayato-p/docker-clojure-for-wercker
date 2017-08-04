@@ -1,5 +1,4 @@
-FROM clojure:lein-2.7.1-alpine
+FROM clojure:lein-2.6.1-alpine
 MAINTAINER ayato-p
 
-RUN apk update
-RUN apk add rsync curl
+RUN apk add --update --no-cache rsync curl
