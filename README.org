@@ -1,1 +1,1 @@
-* docker image: clojure-with-rsync
+* docker image: ayato/clojure-for-wercker
